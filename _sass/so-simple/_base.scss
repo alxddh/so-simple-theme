@@ -102,9 +102,10 @@ figcaption {
 }
 
 a {
-  color: $accent-color;
+  color: $system-blue;
   -webkit-transition: $global-transition;
   transition: $global-transition;
+  text-decoration: none;
 
   &:hover {
     color: shade($accent-color, 25%);
