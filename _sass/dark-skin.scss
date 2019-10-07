@@ -29,3 +29,36 @@ $system-gray3:   $ios-dark-mode-gray3;
 $system-gray4:   $ios-dark-mode-gray4;
 $system-gray5:   $ios-dark-mode-gray5;
 $system-gray6:   $ios-dark-mode-gray6;
+
+$base-color: #fff !default;
+$text-color: #fff !default;
+$accent-color: $system-gray !default;
+$nav-color: #000 !default;
+$background-color: #000 !default;
+$nav-background-color: $system-blue !default;
+$code-background-color: tint($base-color, 95%) !default;
+$border-color: tint($base-color, 80%) !default;
+
+$primary-color: #fff !default;
+$success-color: $system-green !default;
+$warning-color: $system-orange !default;
+$danger-color:  $system-red !default;
+$info-color:    $system-blue !default;
+
+/* Monokai by Wimer Hazenberg (http://www.monokai.nl) */
+$base00: #272822;
+$base01: #383830;
+$base02: #49483e;
+$base03: #75715e;
+$base04: #a59f85;
+$base05: #f8f8f2;
+$base06: #f5f4f1;
+$base07: #f9f8f5;
+$base08: #f92672;
+$base09: #fd971f;
+$base0a: #f4bf75;
+$base0b: #a6e22e;
+$base0c: #a1efe4;
+$base0d: #66d9ef;
+$base0e: #ae81ff;
+$base0f: #cc6633;

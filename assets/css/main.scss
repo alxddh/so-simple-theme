@@ -5,6 +5,8 @@ sitemap: false
 
 @charset "utf-8";
 
+@import "so-simple/functions";
+
 {% if site.skin == "dark" %}
 @import "dark-skin";
 {% else %}
