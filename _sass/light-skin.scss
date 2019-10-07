@@ -35,7 +35,7 @@ $text-color: #000 !default;
 $accent-color: $system-gray !default;
 $nav-color: #fff !default;
 $background-color: #fff !default;
-$nav-background-color: #000 !default;
+$nav-background-color: $system-blue !default;
 $code-background-color: tint($base-color, 95%) !default;
 $border-color: tint($base-color, 80%) !default;
 
