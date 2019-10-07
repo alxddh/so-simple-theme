@@ -5,4 +5,10 @@ sitemap: false
 
 @charset "utf-8";
 
+{% if site.skin == "dark" %}
+@import "dark-skin";
+{% else %}
+@import "light-skin";
+{% endif %}
+
 @import "so-simple";
