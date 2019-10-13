@@ -1,0 +1,65 @@
+$ios-dark-mode-blue:     rgb(10, 132, 255) !default;
+$ios-dark-mode-green:    rgb(48, 209, 88) !default;
+$ios-dark-mode-indigo:   rgb(94, 92, 230) !default;
+$ios-dark-mode-orange:   rgb(255, 159, 10) !default;
+$ios-dark-mode-pink:     rgb(255, 55, 95) !default;
+$ios-dark-mode-purple:   rgb(191, 90, 242) !default;
+$ios-dark-mode-red:      rgb(255, 69, 58) !default;
+$ios-dark-mode-teal:     rgb(100, 210, 255) !default;
+$ios-dark-mode-yellow:   rgb(255, 214, 10) !default;
+$ios-dark-mode-gray:     rgb(142, 142, 147) !default;
+$ios-dark-mode-gray2:    rgb(99, 99, 102) !default;
+$ios-dark-mode-gray3:    rgb(72, 72, 74) !default;
+$ios-dark-mode-gray4:    rgb(58, 58, 60) !default;
+$ios-dark-mode-gray5:    rgb(44, 44, 46) !default;
+$ios-dark-mode-gray6:    rgb(28, 28, 30) !default;
+
+$system-blue:    $ios-dark-mode-blue;
+$system-green:   $ios-dark-mode-green;
+$system-indigo:  $ios-dark-mode-indigo;
+$system-orange:  $ios-dark-mode-orange;
+$system-pink:    $ios-dark-mode-pink;
+$system-purple:  $ios-dark-mode-purple;
+$system-red:     $ios-dark-mode-red;
+$system-teal:    $ios-dark-mode-teal;
+$system-yellow:  $ios-dark-mode-yellow;
+$system-gray:    $ios-dark-mode-gray;
+$system-gray2:   $ios-dark-mode-gray2;
+$system-gray3:   $ios-dark-mode-gray3;
+$system-gray4:   $ios-dark-mode-gray4;
+$system-gray5:   $ios-dark-mode-gray5;
+$system-gray6:   $ios-dark-mode-gray6;
+
+/* Colors */
+$base-color: #000 !default;
+$text-color: #000 !default;
+$accent-color: $system-gray !default;
+$nav-color: #fff !default;
+$background-color: #e8d5b7 !default;
+$nav-background-color: #f9b248 !default;
+$code-background-color: mix(#fff, $background-color, 20%) !default;
+$border-color: mix(#000, $background-color, 20%) !default;
+
+$primary-color: #fc3a52 !default;
+$success-color: $system-green !default;
+$warning-color: $system-orange !default;
+$danger-color:  $system-red !default;
+$info-color:    $system-blue !default;
+
+/* Sunset syntax highlighting (base16) */
+$base00: #1d1f21 !default;
+$base01: #282a2e !default;
+$base02: #373b41 !default;
+$base03: #969896 !default;
+$base04: #b4b7b4 !default;
+$base05: #c5c8c6 !default;
+$base06: #e0e0e0 !default;
+$base07: #ffffff !default;
+$base08: #cc6666 !default;
+$base09: #de935f !default;
+$base0a: #f0c674 !default;
+$base0b: #b5bd68 !default;
+$base0c: #8abeb7 !default;
+$base0d: #81a2be !default;
+$base0e: #b294bb !default;
+$base0f: #a3685a !default;
