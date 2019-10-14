@@ -23,17 +23,18 @@
     }
   </script>
 
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <script>
     /* Select main css */
     var hours = (new Date()).getHours();
     var node = document.createElement('link');
     node.rel = 'stylesheet';
     if (hours >= 7 && hours < 16) {
-      node.href = "{{ '/assets/css/main-light.css' | relative_url }}";
+      node.href = "{{ '/assets/css/skins/light.css' | relative_url }}";
     } else if (hours >= 16 && hours < 20) {
-      node.href = "{{ '/assets/css/main-sunset.css' | relative_url }}";
+      node.href = "{{ '/assets/css/skins/sunset.css' | relative_url }}";
     } else {
-      node.href = "{{ '/assets/css/main-dark.css' | relative_url }}";
+      node.href = "{{ '/assets/css/skins/dark.css' | relative_url }}";
     }
     document.getElementsByTagName('head')[0].appendChild(node);
   </script>
