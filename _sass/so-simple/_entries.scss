@@ -5,14 +5,6 @@
 .entry {
   @include clearfix();
   position: relative;
-
-  a {
-    color: inherit;
-
-    &:hover {
-      color: $accent-color;
-    }
-  }
 }
 
 .entry-header {
@@ -71,7 +63,6 @@
 
 .entry-excerpt a,
 .u-bookmark-of {
-  color: $system-blue;
   position: relative;
   z-index: 10;
 }
