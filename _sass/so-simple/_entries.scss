@@ -5,6 +5,10 @@
 .entry {
   @include clearfix();
   position: relative;
+
+  a {
+    color: inherit;
+  }
 }
 
 .entry-header {

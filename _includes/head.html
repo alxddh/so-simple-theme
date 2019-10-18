@@ -24,23 +24,7 @@
   </script>
 
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  <script>
-    /* Select main css */
-    var hours = (new Date()).getHours();
-    var node = document.createElement('link');
-    node.rel = 'stylesheet';
-    if (hours >= 3 && hours < 6) {
-      node.href = "{{ '/assets/css/skins/sunset.css' | relative_url }}";
-    } else if (hours >= 6 && hours < 15) {
-      node.href = "{{ '/assets/css/skins/light.css' | relative_url }}";
-    } else if (hours >= 15 && hours < 18) {
-      node.href = "{{ '/assets/css/skins/sunset.css' | relative_url }}";
-    } else {
-      node.href = "{{ '/assets/css/skins/dark.css' | relative_url }}";
-    }
-    document.getElementsByTagName('head')[0].appendChild(node);
-  </script>
-
+  <link rel="stylesheet" href="{{ site.skin | default: '/assets/css/skins/default.css' | relative_url }}">
   {% if site.google_fonts %}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={%- for font in site.google_fonts -%}{{ font.name | replace: ' ', '+' }}{% if font.weights %}:{% endif %}{{ font.weights | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{%- endfor -%}">
   {% endif %}
