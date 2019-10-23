@@ -9,12 +9,12 @@
 
 /* Colors */
 $primary-color: #fc3a52 !default;
-$base-color: #000 !default;
-$text-color: #000 !default;
+$base-color: #404040 !default;
+$text-color: #404040 !default;
 $accent-color: mix(#000, $primary-color, 10%) !default;
 $nav-color: #fff !default;
 $background-color: #e8d5b7 !default;
-$nav-background-color: $accent-color !default;
+$nav-background-color: #27241f !default;
 $code-background-color: mix(#fff, $background-color, 20%) !default;
 $border-color: mix(#000, $background-color, 20%) !default;
 
