@@ -76,6 +76,14 @@
     white-space: nowrap;
   }
 
+  .page-date-arrow::after {
+    content: " ~ ";
+    @include breakpoint($large) {
+      content: "\A≀\A";
+      white-space: pre;
+    }
+  }
+
   .read-time {
     @include breakpoint($large) {
       display: block;
